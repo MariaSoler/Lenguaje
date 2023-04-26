@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Gadgets</title>
+</head>
+<body>
+<header>
+	
+	<div class="encabezado">
+		<div class="Logo">
+			
+			<img src="imagenes/lg.jpeg" alt="Logo de mi sitio web"></img>
+		
+		</div>
+		<div class="buscador">
+		  <form>
+			<input type="text" name="search" placeholder="Buscar">
+			<button type="submit">Buscar</button>
+		  </form>
+		</div>
+		
+		<div class="cuenta">
+			
+		  
+				<!-- Boton para realizar llamado a AUTH0 -->
+			<button onclick="iniciarAutenticacion()">login</button>
+			
+
+			<!-- Parametros necesarios para poder llamar a AUTH0 desde HTML -->
+			<script src="https://cdn.auth0.com/js/auth0/9.12.2/auth0.min.js"></script>
+			<script>
+  			var auth0 = new auth0.WebAuth({
+    		domain: 'dev-ykxci83tjfgsgaug.us.auth0.com',
+    		clientID: 'oohg2rHaGg8e5cugVAAdb7izf5AUUPPL',
+    		redirectUri: 'http://localhost:3000',
+    		responseType: 'token id_token',
+    		scope: 'openid'
+  			});
+
+  			function iniciarAutenticacion() {
+    		auth0.authorize();
+  			}
+			</script>
+
+
+
+	  
+		</div>
+	  
+		<div class="carrito">
+		  <!-- Contenido del carrito aquí -->
+		  
+        <a href="carrito.html"><img src="imagenes/carrito.png" alt="Logo"></a>
+		</div>
+	  </div>
+
+</header>
+
+	<div id="header">
+		<ul class="nav">
+			<br>
+			<li><a href="">Inicio</a></li>
+			<li><a href="About.html">Quienes Somos</a></li>
+			<li><a href="">Catalago</a></li>
+			<li><a href="">Categorias</a>
+				
+				<ul>
+					<li><a href="">Todas</a></li>
+					<li><a href="">Cargadores</a></li>
+					<li><a href="">Teclados</a></li>
+					<li><a href="">Discos HDD </a></li>
+					<li><a href="">Audio</a></li>
+					<li><a href="">Mouse </a></li>
+					
+
+				</ul>
+			</li>
+			<li><a href="Marcas.html">Marcas</a>
+				<br>
+				
+				<ul>
+					<li><a href="">Logitech</a></li>
+					<li><a href="">Genius</a></li>
+					<li><a href="">Apple</a></li>
+					<li><a href="">KlipXtreme</a></li>
+					
+				</ul>
+			</li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+	</div>
+	<br>
+	<video controls>
+		<source src="imagenes/video.mp4" type="video/mp4">
+		Tu navegador no soporta el elemento de video.
+	  </video>
+	  <br>
+	  <br>
+ <div class="descuento">
+		<img  id="imagen-1" src="imagenes/decuent.png" alt="imagen-1">
+		<div class="etiqueta-descuento">20% DE DESCUENTO</div>
+
+	 </div>
+
+
+	 <div class="descuento">
+		
+	 <img  id="imagen-2" src="imagenes/audio.png" alt="imagen-2">
+	 <div class="etiqueta-descuento">50% DE DESCUENTO</div>
+	</div>
+
+	 <div class="descuento">
+		
+		<img  id="imagen-3" src="imagenes/video.png" alt="imagen-3">
+
+	 <div class="etiqueta-descuento">60% DE DESCUENTO</div>
+   
+	</div>
+
+	<div class="descuento">
+		
+	<img  id="imagen-4" src="imagenes/img3.jpg" alt="imagen-4">
+	<div class="etiqueta-descuento">50% DE DESCUENTO</div>
+	</div>
+    
+	<div class="descuento">
+		   
+	<img  id="imagen-5" src="imagenes/aud.png" alt="imagen-5">
+   
+	<div class="etiqueta-descuento">30% DE DESCUENTO</div>
+	  
+	   </div>
+	  
+
+	   <footer>
+		<div class="footer-columna">
+		   <h3>Acerca de</h3>
+		   <ul>
+			  <li><a href="About.html">Gadgets</a></li>
+			  <li><a href="#">Socios</a></li>
+			  <li><a href="#">Nuestras Marcas</a></li>
+			 
+			  
+		   </ul>
+		</div>
+		<div class="footer-columna">
+			<h3>Valores</h3>
+			<ul>
+				<li><a href="Valores.html">Compromiso</a></li>
+			  <li><a href="Valores.html">Responsabilidad</a></li>
+			  <li><a href="Valores.html">Clientes</a></li>
+			 
+			</ul>
+		 </div>
+		<div class="footer-columna">
+		   <h3>Políticas</h3>
+		   <ul>
+			  <li><a href="Politica.html">Política de Devoluciones</a></li>
+			  <li><a href="Politica.html">Política de Descuentos</a></li>
+		   </ul>
+		</div>
+		
+		<div class="footer-columna">
+			
+			<ul>
+			   <li><a href="MV.html">Mision</a></li>
+			   <li><a href="MV.html">Vision</a></li>
+			</ul>
+		 </div>
+	 </footer>
+	   
+	 
+</body>
+</html>
+
+
+
+

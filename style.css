@@ -1,0 +1,256 @@
+* {
+    margin:0px;
+    padding:0px;
+   
+}
+
+body{
+    margin: 10px;
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+}
+
+#header {
+    margin:auto;
+    width:400px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+   
+}
+
+
+
+ul, ol {
+    list-style:none;
+  
+   
+}
+
+.nav {
+    width:800px; /*Le establecemos un ancho*/
+    margin: 0 auto; /*Centramos automaticamente*/
+    display: flex;
+   position: relative;
+
+}
+
+.nav > li {
+    float:left;
+   
+}
+
+.nav li a {
+    background-color:#307ebd;
+    color:#fcf7f7;
+    text-decoration:none;
+    padding:15px 14px;
+    display:block;
+    float: left;
+}
+
+.nav li a:hover {
+    background-color:grey;
+    display: block;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+    
+    min-width:140px;
+    top:100%;
+    
+}
+
+.nav li:hover > ul {
+    display:block;
+    
+
+    }
+
+.nav li ul li {
+    position: relative;
+    display: block;
+    
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+    
+    
+}
+
+
+img{
+    width: 35px;
+    height: auto;
+   
+}
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #299bcf;
+    
+  }
+  .Logo{
+    background-image: url(imagenes/lg.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+    width: 200px;
+    height: 120px;
+    border-radius: 90%;
+    padding-left: 10%;
+  }
+
+
+  .buscador {
+    text-align: center;
+    border: 2px solid #35457a;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 40%;
+  }
+  .buscador input[type="text"] {
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+  }
+  .buscador button[type="submit"] {
+    background-color: #276bb8;
+    border: none;
+   color: #fbfdfd; 
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cuenta {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:30px;
+   
+    
+  }
+
+  .carrito {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:30px;
+   
+  }
+
+  form{
+    width: 90%;
+  }
+  
+  video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+  
+  .descuento {
+    position:relative;
+    display: inline-block;
+    padding: 5%;
+    margin:30px;
+ }
+ 
+ .etiqueta-descuento {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: red;
+    color: white;
+    font-size: 1.2em;
+ }
+
+ #imagen-1 {
+    width: 170px;
+    height: 160px
+ 
+ }
+  
+ #imagen-2 {
+    width: 170px;
+    height: 160px
+ }
+ #imagen-3 {
+    width: 170px;
+    height: 160px
+ }
+ #imagen-4 {
+    width: 170px;
+    height: 160px
+ }
+ #imagen-5 {
+    width: 170px;
+    height: 160px
+ }
+ footer {
+    background-color: #d6ccd16b;
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+   
+
+   }
+
+ 
+ .footer-columna {
+    width: 33.33%;
+    margin-bottom: 50px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    background-color: transparent;
+ }
+ 
+ .footer-columna h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+    background-color: transparent;
+ }
+ 
+ .footer-columna ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+ }
+ 
+ .footer-columna ul li {
+    margin-bottom: 10px;
+    background-color: transparent;
+ }
+ 
+ .footer-columna ul li a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    background-color: transparent;
+ }
+ 
+ .footer-columna ul li a:hover {
+    color: #aa1212;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+ }
+ 
+ .footer-columna p {
+    font-size: 14px;
+    color: #6104db;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    
+ }

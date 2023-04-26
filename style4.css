@@ -1,0 +1,156 @@
+
+
+body{
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #299bcf;
+   
+    
+  }
+.encabezado img{
+    background-position: center;
+    margin: 18px;
+    width: 200px;
+    height: 120px;
+    border-radius: 90%;
+    padding-left: 5%;
+  }
+
+  h1{
+   text-align: center;
+   margin: 0 auto;
+  font-size: 40pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+  }
+nav {
+    display: flex;
+    align-items: right;
+    background-color: #f9fafa;
+    padding: 10px;
+  }
+  
+   .logo img {
+    align-items: right;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .menu {
+   display:none;
+    position:relative;
+    top: 60px;
+    left: 0;
+    background-color: #32429c;
+    padding: 10px;
+    text-decoration: solid ;
+
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .logo:hover + .menu,
+  .menu:hover {
+    display: block;
+  }
+  
+  li {
+    list-style:none;
+  
+   
+}
+
+
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.valor {
+    margin-bottom: 30px;
+}
+
+.valor h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.valor p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+.Mision {
+    margin-bottom: 30px;
+}
+
+.Mision h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Mision p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+.Vision {
+    margin-bottom: 30px;
+}
+
+.Vision h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.Vision p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+
+.politica {
+    margin-bottom: 30px;
+}
+
+.politica h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.politica p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: justify;
+    
+}
+
+footer{
+    text-align: center;
+}

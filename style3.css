@@ -1,0 +1,94 @@
+body {
+    
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+ 
+	font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+
+li {
+    list-style:none;
+  
+   
+  }
+  nav {
+      display: flex;
+      align-items: right;
+      background-color: #f9fafa;
+      padding: 10px;
+    }
+    
+     .logo img {
+      align-items: right;
+      height: 40px;
+      width: auto;
+      cursor: pointer;
+    }
+    
+    .menu {
+     display:none;
+      position:relative;
+      top: 60px;
+      left: 0;
+      background-color: #32429c;
+      padding: 10px;
+      text-decoration: solid ;
+  
+    }
+    
+    .menu li {
+      margin: 10px 0;
+    }
+    
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 16px;
+    }
+    
+    .logo:hover + .menu,
+    .menu:hover {
+      display: block;
+    }
+
+
+
+
+
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			font-size: 36px;
+			margin-bottom: 20px;
+			text-align: center;
+		}
+		ol {
+			margin: 0;
+			padding: 0;
+			
+		}
+		li {
+			font-size: 24px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+			
+			list-style: none;
+		}
+		li:before {
+			margin-right: 10px;
+			color: #999;
+			font-weight: bold;
+		}
+
+    .tienda img{
+      position: center;
+      margin: 18px;
+      width: 300px;
+      height: 150px;
+      border-radius: 90%;
+      padding-left: 5%;
+    }

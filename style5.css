@@ -1,0 +1,137 @@
+* {
+    margin:0px;
+    padding:0px;
+   
+}
+
+
+#header {
+    margin:auto;
+    width:400px;
+    font-family:Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+   
+}
+
+body{
+    background: linear-gradient(90deg, rgba(131,108,213,1) 0%, rgba(81,53,204,0.3337710084033614) 35%, rgba(0,212,255,1) 100%);
+}
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #299bcf;
+   
+    
+  }
+.encabezado img{
+    background-position: center;
+    margin: 18px;
+    width: 200px;
+    height: 120px;
+    border-radius: 90%;
+    padding-left: 5%;
+  }
+
+  h1{
+   text-align: center;
+   margin: 0 auto;
+  font-size: 40pt;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+
+  }
+nav {
+    display: flex;
+    align-items: right;
+    background-color: #f9fafa;
+    padding: 10px;
+  }
+  
+   .logo img {
+    align-items: right;
+    height: 40px;
+    width: auto;
+    cursor: pointer;
+  }
+  
+  .menu {
+   display:none;
+    position:relative;
+    top: 60px;
+    left: 0;
+    background-color: #32429c;
+    padding: 10px;
+    text-decoration: solid ;
+
+  }
+  
+  .menu li {
+    margin: 10px 0;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .logo:hover + .menu,
+  .menu:hover {
+    display: block;
+  }
+  
+  li {
+    list-style:none;
+  
+   
+}
+
+
+
+.encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #299bcf;
+    
+  }
+  .Logo{
+    background-image: url(imagenes/lg.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin: 18px;
+    width: 200px;
+    height: 120px;
+    border-radius: 90%;
+    padding-left: 10%;
+  }
+
+  .cuenta {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:30px;
+   
+    
+  }
+
+  .carrito {
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-right:30px;
+   
+  }
+
+  form{
+    width: 90%;
+  }
+  
+  video {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
