@@ -5,7 +5,7 @@ import App from './App';
 import { Auth0Provider } from '@auth0/auth0-react';
 
 function miFuncion() {
-  console.log("Se hizo clic en el botón");
+  console.log(" Se hizo clic en el botón ");
 }
 
 
